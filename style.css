@@ -51,6 +51,14 @@ body{
     
 }
 
+.bienvenidos{
+    transition: all 5s;
+}
+.grid-galeria:hover{
+    transform: scale(1.3);
+}
+
+
 
 .dark{
     width: 100%;
