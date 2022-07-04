@@ -44,6 +44,15 @@ body{
 
 }
 
+@media only screen and (max-width: 468px) {
+    .imagenes-galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 50px;
+    }
+}
+
 .grid-galeria{
     border: solid 8px #f8f2d9;
     height: 80%;
